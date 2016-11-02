@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+	font-family: "Miso";
+	src: url('../fonts/miso-webfont.woff2') format('woff2'),
+	url('../fonts/miso-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: "Miso Bold";
+	src: url('../fonts/miso-bold-webfont.woff2') format('woff2'),
+	url('../fonts/miso-bold-webfont.woff') format('woff');
+}
+
+body{
+	font: 300 20px/1.3 "Lato", Arial, sans-serif;
+	color:  #333333;
+}
+
+/* Layout */
+.ba-container{
+	max-width: 1240px;
+	padding: 70px 20px;
+
+}
+.ba-table{
+	background: #FBDC7D;
+	min-height: 600px;
+	display: flex;
+	align-items: center;
+	max-width: 1200px;
+	padding: 20px;
+}
+.ba-cup{
+	background: #FFF;
+	margin: 0 15px;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-basis: 361px;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px 0 #C9B264;
+}
+
+.ba-cup__price{
+	font: 700 70px/1 "Miso Bold", Arial, sans-serif;
+	color:  #02985A;
+	margin: 0;
+}
+.ba-cup__img{
+	display: block;
+	margin: 13px 0 35px;
+}
+.ba-cup__color{
+	font: 400 56px/1 "Miso", Arial, sans-serif;
+	margin: 0;
+}
+.ba-cup__title{
+	margin: 0;
+	padding-top: 22px;
+	max-width: 156px;
+	text-align: center;
+	letter-spacing: 0.025em;
+}
+
+
+.ba-cup__img:hover{
+	cursor:pointer;
+	margin: 50px 0 ;
+	transition: all 0.7s ease-in;
+}
+.ba-cup:active {
+	border: 2px solid #831F28;
+}
+
+
